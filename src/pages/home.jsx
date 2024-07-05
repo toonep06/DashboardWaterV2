@@ -28,6 +28,7 @@ import DraftsIcon from '@mui/icons-material/Drafts';
 
 
 import Dashboard from './dashboard'
+import Logo from '../img/engineers-working-construction.png'; 
 
 const drawerWidth = 240;
 
@@ -142,6 +143,12 @@ export default function Home() {
                     >
                         <MenuIcon />
                     </IconButton>
+                    <Box
+                        component="img"
+                        src={Logo} // Path to your logo
+                        alt="Logo"
+                        sx={{ height: 40, marginRight: 2 }}
+                    />
                     <Typography variant="h6" noWrap component="div">
                         Toon IoT Dashboard
                     </Typography>
